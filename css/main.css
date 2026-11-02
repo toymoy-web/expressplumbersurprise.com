@@ -79,7 +79,7 @@ img{max-width:100%;height:auto;display:block}
 .trustrow li:before{content:"\2713\00a0";color:var(--lav-d)}
 .statpanel{background:var(--ink-d);color:#fff;border-radius:var(--radius-lg);padding:26px}
 .statpanel h2{font-size:15px;color:var(--muted-on-dark);margin-bottom:12px;font-weight:600;letter-spacing:0}
-.strow{display:flex;justify-content:space-between;gap:1rem;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:15px}
+.strow{display:flex;justify-content:space-between;gap:1rem;padding:11px 0;border-bottom:1px solid var(--lav-bg);font-size:15px}
 .strow:last-child{border-bottom:none}
 .strow b{color:var(--lav-bg2);text-align:right}
 .statpanel .sp-note{font-size:13px;color:var(--muted-on-dark);margin-top:12px}
@@ -315,3 +315,10 @@ main :is(h2,h3,h4)+p{margin-top:14px}
 .localnote h2{margin:0 0 .6rem!important;font-size:clamp(1.25rem,2.4vw,1.6rem)}
 .blog-faq{margin:2rem 0 0;max-width:none}
 .blog-faq h2{margin-bottom:12px!important}
+
+/* social */
+.footer-social{margin:28px 0 0;padding-top:22px;border-top:1px solid var(--line)}
+.footer-social h2{font-size:1rem;margin:0 0 10px}
+.footer-social ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 10px}
+.footer-social a{display:inline-block;padding:7px 14px;border:1px solid var(--lav-d);border-radius:999px;font-size:14px;font-weight:600;color:var(--lav-dd);text-decoration:none}
+.footer-social a:hover{background:var(--lav-bg)}
