@@ -322,3 +322,11 @@ main :is(h2,h3,h4)+p{margin-top:14px}
 .footer-social ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 10px}
 .footer-social a{display:inline-block;padding:7px 14px;border:1px solid var(--lav-d);border-radius:999px;font-size:14px;font-weight:600;color:var(--lav-dd);text-decoration:none}
 .footer-social a:hover{background:var(--lav-bg)}
+
+/* neighborhoods */
+.nb-links{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.nb-links li:before{content:"\2192";color:var(--lav-d);font-weight:800;margin-right:8px}
+.nb-src{font-size:14.5px}
+.nb-grid{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.nb-grid a{display:inline-block;padding:9px 16px;border:1px solid var(--lav-d);border-radius:999px;font-weight:600;text-decoration:none}
+.nb-grid a:hover{background:var(--lav-bg)}
